@@ -2,10 +2,12 @@
   - https://github.com/leocus/codeassistant.vim
 
 * TODO:
-  - ( ) keymaps
+  - ( ) ai
+  - ( ) neodev
+  - (-) keymaps
   -- (x) setup
   -- ( ) search
-  - ( ) bootstrap
+  - (-) bootstrap
   -- (x) setup
   -- ( ) split dev/core/skogix
   - (-) options
