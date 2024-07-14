@@ -2,9 +2,20 @@
   - https://github.com/leocus/codeassistant.vim
 
 * TODO:
-  - ( ) extras plugins
-  -- ( ) coding.copilot
-  -- ( ) coding.copilot-chat
+  - ( ) dev
+  -- ( ) which-key
+  -- ( ) cmp
+  -- ( ) fzf
+  -- ( ) tmux
+  -- ( ) treesitter
+  -- ( ) trouble
+  -- ( ) git
+  --- ( ) fugitive
+  --- ( ) gitsigns
+  --- ( ) lazygit?
+  - (-) extras plugins
+  -- (x) coding.copilot
+  -- (x) coding.copilot-chat
   -- ( ) dap.core
   -- ( ) dap.nlua
   -- ( ) editor.fzf
@@ -13,13 +24,11 @@
   -- ( ) lsp.neoconf
   -- ( ) lsp.none-ls
   -- ( ) util.octo
-  - (-) telescope vs fzf eller orka båda?
-  - (-) ai
-  -- (x) copilot commits
-  -- ( ) comments
-  - (-) keymaps
+  - (x) keymaps
   -- (x) setup
-  -- ( ) search
+  -- (x) search
+  --- (x) basics
+  --- ( ) enbart s ska visas ordentligt
   - (-) bootstrap
   -- (x) setup
   -- ( ) split dev/core/skogix
@@ -36,3 +45,6 @@
   - (x) options
   -- (x) setup
   -- (x) basics
+  - (x) ai
+  -- (x) copilot commits
+  -- (x) comments
