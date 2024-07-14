@@ -26,7 +26,7 @@ require("lazy").setup({
 		-- add LazyVim and import its plugins
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 		-- import/override with your plugins
-		{ import = "plugins" },
+		{ import = "core.plugins" },
 	},
 	defaults = {
 		-- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -77,9 +77,9 @@ require("lazy").setup({
 		-- add LazyVim and import its plugins
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 		-- import/override with your plugins
-		{ import = "plugins" },
-		{ import = "skogix.plugins" },
-		{ import = "skogix.plugins.extras" },
+		{ import = "core.plugins" },
+		-- { import = "skogix.plugins" },
+		-- { import = "skogix.plugins.extras" },
 	},
 	defaults = {
 		-- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.

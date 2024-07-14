@@ -1,0 +1,22 @@
+* sVim 0.1
+  - https://github.com/leocus/codeassistant.vim
+
+* TODO:
+  - ( ) keymaps
+  -- (x) setup
+  -- ( ) search
+  - ( ) bootstrap
+  -- (x) setup
+  -- ( ) split dev/core/skogix
+  - (-) options
+  -- (x) setup
+  -- ( ) basics
+  - ( ) neorg
+  -- ( ) keymaps
+  -- ( ) layout
+  -- ( ) move to 10.0
+* DONE:
+  - (x) basic layout
+  - (x) basic readme/todo
+  - (x) autocmds
+  -- (x) setup
