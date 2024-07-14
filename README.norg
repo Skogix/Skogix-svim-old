@@ -2,17 +2,27 @@
   - https://github.com/leocus/codeassistant.vim
 
 * TODO:
-  - ( ) ai
-  - ( ) neodev
+  - ( ) extras plugins
+  -- ( ) coding.copilot
+  -- ( ) coding.copilot-chat
+  -- ( ) dap.core
+  -- ( ) dap.nlua
+  -- ( ) editor.fzf
+  -- ( ) editor.harpoon2
+  -- ( ) editor.overseer
+  -- ( ) lsp.neoconf
+  -- ( ) lsp.none-ls
+  -- ( ) util.octo
+  - (-) telescope vs fzf eller orka båda?
+  - (-) ai
+  -- (x) copilot commits
+  -- ( ) comments
   - (-) keymaps
   -- (x) setup
   -- ( ) search
   - (-) bootstrap
   -- (x) setup
   -- ( ) split dev/core/skogix
-  - (-) options
-  -- (x) setup
-  -- ( ) basics
   - ( ) neorg
   -- ( ) keymaps
   -- ( ) layout
@@ -22,3 +32,7 @@
   - (x) basic readme/todo
   - (x) autocmds
   -- (x) setup
+  - (x) lazydev
+  - (x) options
+  -- (x) setup
+  -- (x) basics
