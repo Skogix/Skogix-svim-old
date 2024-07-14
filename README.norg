@@ -2,7 +2,8 @@
   - https://github.com/leocus/codeassistant.vim
 
 * TODO:
-  - ( ) ai
+  - (x) ai
+  -- (x) copilot commits
   - ( ) neodev
   - (-) keymaps
   -- (x) setup
