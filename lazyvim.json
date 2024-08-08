@@ -1,19 +1,9 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.copilot",
-    "lazyvim.plugins.extras.coding.copilot-chat",
-    "lazyvim.plugins.extras.dap.core",
-    "lazyvim.plugins.extras.dap.nlua",
-    "lazyvim.plugins.extras.editor.fzf",
-    "lazyvim.plugins.extras.editor.harpoon2",
-    "lazyvim.plugins.extras.editor.overseer",
-    "lazyvim.plugins.extras.lang.markdown",
-    "lazyvim.plugins.extras.lsp.neoconf",
-    "lazyvim.plugins.extras.lsp.none-ls",
-    "lazyvim.plugins.extras.util.octo"
+
   ],
   "news": {
-    "NEWS.md": "6077"
+    "NEWS.md": "6520"
   },
   "version": 6
 }
