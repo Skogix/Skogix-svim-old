@@ -43,60 +43,45 @@
   - lua/utils/icons.lua
     # Icon definitions for the UI.
 
-* TODO:
-  # List of tasks to be completed for the project
-  - Development
-    # Core development tasks
-    - [ ] which-key
-    - [ ] cmp
-    - [ ] fzf
-    - [ ] tmux
-    - [ ] treesitter
-    - [ ] trouble
-    - Git
-      # Git-related tasks
-      - [ ] fugitive
-      - [ ] gitsigns
-      - [ ] lazygit?
-  - Extras Plugins
-    # Additional plugins to be integrated
-    - [x] coding.copilot
-    - [x] coding.copilot-chat
-    - [ ] dap.core
-    - [ ] dap.nlua
-    - [ ] editor.fzf
-    - [ ] editor.harpoon2
-    - [ ] editor.overseer
-    - [ ] lsp.neoconf
-    - [ ] lsp.none-ls
-    - [ ] util.octo
-  - Keymaps
-    # Key mapping configurations
-    - [x] setup
-    - [x] search
-      - [x] basics
-      - [ ] enbart s ska visas ordentligt
-  - Bootstrap
-    # Initial setup tasks
-    - [x] setup
-    - [ ] split dev/core/skogix
-  - Neorg
-    # Neorg-specific tasks
-    - [ ] keymaps
-    - [ ] layout
-    - [ ] move to 10.0
-
-* DONE:
-  # Completed tasks
-  - [x] basic layout
-  - [x] basic readme/todo
-  - [x] autocmds
-    - [x] setup
-  - [x] lazydev
-  - [x] options
-    - [x] setup
-    - [x] basics
-  - AI
-    # AI-related tasks
-    - [x] copilot commits
-    - [x] comments
+* .gitignore
+  # Specifies files and directories to be ignored by git.
+* README.norg
+  # Documentation and task list for the project.
+* docs/bootstrapper-example.lua
+  # Example Lua script for bootstrapping.
+* docs/lazyvim.txt
+  # Documentation for LazyVim.
+* init.lua
+  # Main initialization file for the project.
+* lazyvim.json
+  # Configuration file for LazyVim.
+* lua/config/autocmds.lua
+  # Contains autocommand configurations.
+* lua/config/keymaps.lua
+  # Defines key mappings.
+* lua/config/lazy.lua
+  # Configuration for lazy loading plugins.
+* lua/config/options.lua
+  # Sets various options for the environment.
+* lua/core/bootstrap.lua
+  # Core bootstrap logic for the application.
+* lua/core/plugins/colorscheme.lua
+  # Plugin configuration for color schemes.
+* lua/core/plugins/copilot-chat.lua
+  # Configuration for Copilot Chat plugin.
+* lua/core/plugins/copilot.lua
+  # Configuration for Copilot plugin.
+* lua/core/plugins/disable.lua
+  # Disables certain plugins.
+* lua/core/plugins/lazydev.lua
+  # Configuration for LazyDev plugin.
+* lua/core/plugins/neorg.lua
+  # Configuration for Neorg plugin.
+* lua/core/plugins/which-key.lua
+  # Configuration for Which-Key plugin.
+* lua/dev/plugins/fzf.lua
+  # Configuration for FZF plugin.
+* lua/utils/functions.lua
+  # Utility functions used across the project.
+* lua/utils/icons.lua
+  # Icon definitions for the UI.
