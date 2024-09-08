@@ -1,6 +1,48 @@
 * sVim 0.1
   - [Repository](https://github.com/leocus/codeassistant.vim)
 
+* Files in the Repository:
+  - .gitignore
+    # Specifies files and directories to be ignored by git.
+  - docs/bootstrapper-example.lua
+    # Example Lua script for bootstrapping.
+  - docs/lazyvim.txt
+    # Documentation for LazyVim.
+  - init.lua
+    # Main initialization file for the project.
+  - lazyvim.json
+    # Configuration file for LazyVim.
+  - lua/config/autocmds.lua
+    # Contains autocommand configurations.
+  - lua/config/keymaps.lua
+    # Defines key mappings.
+  - lua/config/lazy.lua
+    # Configuration for lazy loading plugins.
+  - lua/config/options.lua
+    # Sets various options for the environment.
+  - lua/core/bootstrap.lua
+    # Core bootstrap logic for the application.
+  - lua/core/plugins/colorscheme.lua
+    # Plugin configuration for color schemes.
+  - lua/core/plugins/copilot-chat.lua
+    # Configuration for Copilot Chat plugin.
+  - lua/core/plugins/copilot.lua
+    # Configuration for Copilot plugin.
+  - lua/core/plugins/disable.lua
+    # Disables certain plugins.
+  - lua/core/plugins/lazydev.lua
+    # Configuration for LazyDev plugin.
+  - lua/core/plugins/neorg.lua
+    # Configuration for Neorg plugin.
+  - lua/core/plugins/which-key.lua
+    # Configuration for Which-Key plugin.
+  - lua/dev/plugins/fzf.lua
+    # Configuration for FZF plugin.
+  - lua/utils/functions.lua
+    # Utility functions used across the project.
+  - lua/utils/icons.lua
+    # Icon definitions for the UI.
+
 * TODO:
   # List of tasks to be completed for the project
   - Development
