@@ -152,5 +152,15 @@ M.gpchat = function()
   })
 end
 
+M.telescope = function()
+  require("which-key").add({"t", group = "telescope"})
+  return {
+    { "tf", function() require("telescope.builtin").find_files() end, desc = "Find files" },
+    { "tg", function() require("telescope.builtin").live_grep() end, desc = "Live grep" },
+    { "tb", function() require("telescope.builtin").buffers() end, desc = "Buffers" },
+    { "th", function() require("telescope.builtin").help_tags() end, desc = "Help tags" },
+  }
+end
+
 return M
 
